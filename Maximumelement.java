@@ -11,6 +11,6 @@ public class main{
             maximum = arr[i];
          }
      }
-  System.out.println("Maximum element in the array :", maximum);
+  System.out.println("Maximum element in the array :"+ maximum);
  }
 }
