@@ -1,0 +1,11 @@
+class main{
+  public int towerOfHanoi(int n,int from , int to, int aux){
+      if(n==1){
+            return 1;
+      }
+      int first = towerOfHanoi(n-1,from,aux,to);
+      int second = towerOfHanoi(n-1,aux,to,from);
+      return first+1+second;
+  }
+}
+       
