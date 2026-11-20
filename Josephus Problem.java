@@ -1,5 +1,5 @@
 //Josephus problem
-class main{
+class solution{
 public int josephus(int n,int k){
   if(n==1){
      return 1;
