@@ -1,3 +1,4 @@
+// palindrome
 class main{
 public boolean isPalindrome(int n){
    n=Math.abs(n);
