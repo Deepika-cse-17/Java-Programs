@@ -1,4 +1,4 @@
-//Josephus problem//
+//Josephus problem
 class main{
 public int josephus(int n,int k){
   if(n==1){
